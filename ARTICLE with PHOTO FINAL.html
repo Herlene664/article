@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Article with Image</title>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+         
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: burlywood;
+            background-size: cover;
+             background-position: center;
+              }
+              
+              
+              
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 900px;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: rosybrown;
+            text-align: center;
+            border: 1px solid #ccc;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+             min-height: 80vh;
+            }
+        .content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .text-container {
+            margin: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: white;
+            border: 1px solid #ccc;
+            width: 90%;
+        }
+        h1 {
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        input {
+            margin: 5px 0;
+            height: 35px;
+            padding: 7px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        button {
+            height: 40px;
+            margin: 5px 0;
+            background-color: skyblue;
+            border: none;
+            border-radius: 5px;
+            color: #333;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:focus {
+            outline: none;
+        }
+        button:hover {
+            background-color: #333;
+            color: hotpink;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CEBU TECHNOLOGICAL UNIVERSITY-DANAO CAMPUS</h1>
+        <div class="content">
+            <div class="image-container">
+                <img src="FB_IMG_1728083514846.jpg" alt="image 1">
+            </div>
+            
+            <div class="text-container">
+                <p>CTU OVAL Danao offers a holistic student experience through extracurricular activities, including cultural festivals, sports competitions, and clubs. These activities foster personal and professional growth, creativity, innovation, and social responsibility.
+                  By actively participating, students become well-rounded individuals with leadership qualities, teamwork skills, and global awareness. The goal is to produce graduates who are academically proficient and socially conscious.</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="image-container">
+                <img src="IMG_20241002_164433.jpg" alt="Image 2">
+            </div>
+            <div class="text-container">
+            <p>The CTU Danao Campus has a gymnasium that serves as a hub for physical fitness, sports, and community events. It offers recreational activities, sports training, and university events, promoting holistic education and physical wellness. The gym is equipped for various sports and serves as a venue for campus-wide events, fostering a strong sense of community and shaping well-rounded individuals.</p>
+                
+            </div>
+        </div>
+        <div class="content">
+            <div class="image-container">
+                <img src="FB_IMG_1727921258848.jpg" alt="Image 3">
+            </div>
+            <div class="text-container">
+                <p>The Cebu Technological University (CTU) Danao Campus Library is a vital resource for students and faculty, offering a variety of resources including textbooks, journals, research papers, and digital materials. It provides a conducive environment for study, research, and collaboration, with regular updates and modern technology integration. The library also fosters intellectual growth through workshops, reading programs, and research-related activities, guiding students towards academic excellence and lifelong learning.
+                  </p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="image-container">
+                <img src="Messenger_creation_04BB3B7C-81D4-4377-8887-8D7991C216EC.jpeg" alt="Image 4">
+            </div>
+            <div class="text-container">
+                  <p>The Facility Centrum at Cebu Technological University (CTU) Danao Campus is a modern, state-of-the-art facility that supports academic excellence, research, and student collaboration. It offers laboratories, meeting rooms, and learning spaces, fostering collaboration and creativity. The facility also hosts leadership training, social events, and community outreach programs, demonstrating CTU Danao's commitment to producing well-rounded graduates.</p>
+              
+            </div>
+            </div>
+<div class="Login">
+                          <input type="email" id="email" placeholder="username">
+                          <input type="password" id ="password" placeholder ="password">
+                          
+                          <button onclick="login()">Login</button>
+                          </div>
